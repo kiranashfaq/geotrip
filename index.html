@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -125,9 +126,8 @@
                 <li><a class="dropdown-item" href="#">Pricing</a></li>
                 <hr class="dr" />
                 <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-                <hr class="dr">
+                <hr class="dr" />
                 <li><a class="dropdown-item" href="#">Contact Us</a></li>
-
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -138,7 +138,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               Menu
+                Menu
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Home Version 01</a></li>
@@ -162,15 +162,142 @@
           </ul>
           <form class="d-flex" role="search">
             <button class="but1">PKR</button>
-            <button class="but1"><img src="src/img/pak.png" alt="" class="pak"></button>
-            <button class="but2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle mx-2" viewBox="0 0 16 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-            </svg>Sign In / Register</button>
+            <button class="but1">
+              <img src="src/img/pak.png" alt="" class="pak" />
+            </button>
+            <button class="but2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-circle mx-2"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                />
+              </svg>
+              Sign In / Register
+            </button>
           </form>
         </div>
       </div>
     </nav>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-12 col-sm-6 text-start mt-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-emoji-laughing bg-success-subtle rounded-circle text-success"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5M7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5"
+            />
+          </svg>
+          <b>Hurry Up! 20% off on domestic flights</b> <br />
+          <br />
+          <h1 class="book">
+            Book Your Next Tour <br />
+            with GeoTrip
+            <div class="underline"></div>
+          </h1>
+          <span class="p1"
+            >Take a little break from the work strss of everyday. Discover plan
+            trip and explore beautiful destinations.</span
+          >
+          <br /><br /><br />
+
+          <fieldset class="field">
+            <legend class="leg"><span class="where">Where</span></legend>
+            <select class="sel" name="" id="">
+              <option>Going To</option>
+              <option>New York</option>
+              <option>San Diego</option>
+              <option>San Jose</option>
+              <option>Philadelphia</option>
+              <option>Nashvile</option>
+              <option>San Francisco</option>
+              <option>San Houston</option>
+            </select>
+          </fieldset>
+          <br />
+          <fieldset class="field2">
+            <legend class="leg2"><span class="where">Choose date</span></legend>
+            <input
+              class="date"
+              type="text"
+              placeholder="Check in"
+              onfocus="(this.type='date')"
+            />
+          </fieldset>
+          <fieldset class="field2">
+            <legend class="leg2"><span class="where">Choose date</span></legend>
+            <input
+              class="date"
+              type="text"
+              placeholder="Check out"
+              onfocus="(this.type='date')"
+            />
+          </fieldset>
+          <br />
+          <br />
+          <fieldset class="field">
+            <legend class="leg"><span class="where">Members</span></legend>
+            <input class="sel" type="text" placeholder="adults,children" />
+          </fieldset> <BR>
+        <button class="avail"> check Availability <i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="col-12 col-sm-6 text-center">
+          <img class="sideflip" src="src/img/side-flip1.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container-fluid con1 text-center">
+      <div class="row rowb align-items-center">
+        <div class="col-4 col-sm-2">
+          <img src="src/img/brand1.png" alt="" class="brand b1" />
+        </div>
+        <div class="col-4 col-sm-2">
+          <img src="src/img/bran2.png" alt="" class="brand" />
+        </div>
+        <div class="col-4 col-sm-2">
+          <img src="src/img/brand3.png" alt="" class="brand" />
+        </div>
+
+        <div class="col-4 col-sm-2">
+          <img src="src/img/brand4.png" alt="" class="brand" />
+        </div>
+        <div class="col-4 col-sm-2">
+          <img src="src/img/brand5.png" alt="" class="brand" />
+        </div>
+        <div class="col-4 col-sm-2">
+          <img src="src/img/brand6.png" alt="" class="brand" />
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+   
+    <h1 class="hot">Hot Places In The World</h1>
+    <p class="hotp">
+      Cicero famously orated against his political opponent Lucius Sergius
+      Catilina.
+    </p>
+    <div class="hello"></div>
+    <div class="hello1"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
