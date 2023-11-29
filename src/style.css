@@ -70,6 +70,7 @@
   font-family: john;
   color: #05264e;
   text-align: center;
+  font-size: 28px;
 }
 .hotp {
   font-family: john2;
@@ -237,6 +238,7 @@
  .aman {
   list-style: none;
    margin-left: -20%;
+   color: #05264e;
 
 }
 .divan{
@@ -256,4 +258,17 @@ font-family: john2;
   padding: 2%;
 margin-left: 25%;
 margin-top: 5%;
+}
+.blogtext{
+  color:#45596c;
+  font-size: 12px;
+  font-family: john2;
+}
+.more{
+  color: #cd2c22;
+  font-family: john;
+  font-size: 15px;
+}
+.blog-card{
+  border: none;
 }
