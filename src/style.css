@@ -51,14 +51,14 @@
   margin-top: -49px;
 }
 .sideflip {
-  width: 90%;
-  height: 90vh;
-  margin-top: 55px;
-  margin-left: 40px;
+  margin-top: 60px;
+  margin-left: 12%;
+  max-width: 86%;
+  height: auto;
 }
 
 .brand {
-  width: 100%;
+  width: 95%;
   height: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -108,7 +108,7 @@
   border: 1px solid rgb(199, 190, 190);
   box-sizing: border-box;
   border-radius: 5px;
-  width: 95%;
+  width: 90%;
 }
 .leg {
   padding-left: 4%;
@@ -131,7 +131,7 @@
   border: 1px solid rgb(199, 190, 190);
   box-sizing: border-box;
   border-radius: 5px;
-  width: 45%;
+  width: 43%;
   display: inline;
   flex-direction: row;
   margin-right: 3%;
@@ -154,14 +154,63 @@
   background-color: #ffe6e5;
   border: 1px soliD #ffe6e5;
   color: #cd2c22;
-  padding: 10px 20px;
-  width: 95%;
+  padding: 15px 20px;
+  width: 90%;
   font-family: john2;
   transition: 1s;
+  border-radius: 7px;
 }
 
 .avail:hover {
   color: white;
   background-color: #cd2c22;
 }
+.card {
+  border-radius: 15px;
 
+}
+
+.cardbut {
+  border-radius: 2px;
+  border: none;
+  padding: 1% 5%;
+  font-size: 10px;
+  font-family: john2;
+  font-weight: 800;
+}
+.card-heading {
+  color: #05264e;
+  font-family: john;
+  font-size: 17px;
+  margin-top: 2%;
+}
+.card-but4 {
+  border: 1px dashed #959da3;
+  background-color: transparent;
+  font-size: 10px;
+  font-family: john2;
+  border-radius: 2px;
+  padding: 1% 3%;
+  margin-right: 2%;
+  color: #45596c;
+}
+.rs {
+  font-family: john;
+  font-size: 20px;
+  color: #05264e;
+}
+.bib {
+  color: orange;
+}
+.star {
+  margin-left: 45%;
+}
+.review {
+  font-family: john;
+  color: #05264e;
+  margin-left: 20%;
+}
+.rev {
+  font-family: john2;
+  font-size: 12px;
+}
